@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="calculatorpage.css">
+    <title>The Clueless Cook - Calculator</title>
+</head>
+<body>
+<header class="header__outer-container">
+    <div class="header__inner-container">
+        <nav class="header__navigation">
+            <h3 class="header-logo">The Clueless Cook</h3>
+            <ul class="header-navigation__list">
+                <li><a class="navigation__page" href="index.html" target="_blank">home</a></li>
+                <li><a class="navigation__page" href="aboutpage.html" target="_blank">about</a></li>
+                <li><a class="navigation__page" href="calculatorpage.html" target="_blank">calculator</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<main class="main__outer-container">
+    <div class="main__inner-container">
+
+        <div class="main__calorie-calculator">
+            <h4>Calorie Calculator</h4>
+            <form id="submit">
+                <label for="barcode-product"></label>
+                <input
+                        type="text"
+                        name="barcode-product" placeholder="Product / barcode "
+                        id="barcode-product"
+                />
+                <button class="main__button-calculator-search">Search &#10140</button>
+            </form>
+            <div class="main__calorie-container">
+                <table>
+                    <thead>
+                    <tr>
+                        <th><h5>Product</h5></th>
+                        <th><h5>Quantity</h5></th>
+                        <th><h5>Label</h5></th>
+                    </tr>
+                    </thead>
+                </table>
+
+                <tbody>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                </tbody>
+            </div>
+            <div class="main__results-container">
+                <article >
+                    <form id="onsubmit">
+                        <label for="amount">Amount</label>
+                        <input
+                                type="text"
+                                name="amount"
+                                id="amount"
+                        />
+
+                        <label for="onsubmit">Serving(s)</label>
+                        <input type="number"
+                               name=serving(s)"
+                               id="servings"
+                               placeholder="+ Add"
+                        />
+                    </form>
+                </article>
+            </div>
+            <article>
+                <div class="main__calorie-container">
+                    <table>
+                        <thead>
+                        <tr>
+                            <th><h5>Product</h5></th>
+                            <th><h5>Calories</h5></th>
+                            <th><h5>Fat</h5></th>
+                            <th><h5>Carbs</h5></th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td><h6></h6></td>
+                            <td><h6>kcal</h6></td>
+                            <td><h6>g</h6></td>
+                            <td><h6>g</h6></td>
+                        </tr>
+                        <tr>
+                            <td><h6></h6></td>
+                            <td><h6>kcal</h6></td>
+                            <td><h6>g</h6></td>
+                            <td><h6>g</h6></td>
+                        </tr>
+
+                        <tr >
+                            <td class="table-underline"><h5>Total</h5></td>
+                            <td class="table-underline"><h6>kcal</h6></td>
+                            <td class="table-underline"><h6>g</h6></td>
+                            <td class="table-underline"><h6>g</h6></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </article>
+        </div>
+    </div>
+    </div>
+</main>
+<footer class="footer__outer-container">
+    <div class="footer__inner-container">
+        <nav class="footer__navigation">
+
+            <ul class="footer-navigation__list">
+                <h5 class="footer-list__heading">Information</h5>
+                <li>Nallum e enim</li>
+                <li>Quisque cursus</li>
+                <li>Cras egastas</li>
+                <li>Nunc vitae</li>
+            </ul>
+
+            <ul class="footer-navigation__list">
+                <h5 class="footer-list__heading">About</h5>
+                <li>Quisque cursus</li>
+                <li>Cras egastas</li>
+                <li>Nunc vitae</li>
+            </ul>
+
+            <ul class="footer-navigation__list">
+                <h5 class="footer-list__heading">Contact</h5>
+                <li>Cras egastas</li>
+                <li>Nunc vitae</li>
+                <li>Nullam e enim</li>
+            </ul>
+
+            <ul class="footer-navigation__list">
+                <h5 class="footer-list__heading">Social</h5>
+                <li class="footer-list__socials"><img src="facebook.png" alt="facebook"/></li>
+                <li class="footer-list__socials"><img src="linkedin.png" alt="linkedin"/></li>
+                <li class="footer-list__socials"><img src="instagram.png" alt="instagram"/></li>
+                <li class="footer-list__socials"><img src="twitter.png" alt="twitter"/></li>
+            </ul>
+        </nav>
+    </div>
+</footer>
+
+<p class="pointer"></p>
+<script type="module" src="app.js"></script>
+</body>
+</html>

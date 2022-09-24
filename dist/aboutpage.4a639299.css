@@ -1,0 +1,239 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header__outer-container, .main__outer-container, .footer__outer-container {
+  width: 100%;
+  border: 5px solid red;
+  justify-content: center;
+  display: flex;
+}
+
+.header__inner-container, .main__inner-container, .footer__inner-container {
+  border: 10px solid green;
+  flex-direction: column;
+  flex-basis: 1400px;
+  align-items: center;
+  margin: 0 20px;
+  display: flex;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.header__outer-container {
+  height: 80px;
+}
+
+.header__navigation {
+  width: 100%;
+  height: 70px;
+  text-transform: capitalize;
+  background-color: #eceaea66;
+  border: 2px solid #e008c3;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 0 2em;
+  display: flex;
+}
+
+.header-logo {
+  width: 100%;
+  border: 1px solid #ff0;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 5em;
+  font-size: 30px;
+  display: flex;
+}
+
+.header-navigation__list {
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 1em;
+  padding: 0 9em 0 1em;
+  list-style-type: none;
+  display: flex;
+}
+
+.navigation__page {
+  color: #03070ccc;
+  text-decoration: none;
+}
+
+.navigation__page:hover {
+  color: #1c5d82cc;
+  text-decoration: underline;
+}
+
+.header__outer-container {
+  width: 100%;
+  border: 3px solid gold;
+}
+
+.header__navigation {
+  width: 100%;
+  text-transform: capitalize;
+  border: 2px solid #00bfff;
+  flex-direction: row;
+  place-content: center space-evenly;
+  padding: 0 2em;
+  display: flex;
+}
+
+.header-logo {
+  width: 100%;
+  border: 2px solid #f600b0;
+  flex-direction: row;
+  place-content: center flex-start;
+  font-size: 25px;
+  display: flex;
+}
+
+.header-navigation__list {
+  border: 2px solid orange;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 4em;
+  margin: 0 0 0 35px;
+  padding: 0 1em;
+  list-style-type: none;
+  display: flex;
+}
+
+.navigation__page {
+  text-decoration: none;
+}
+
+.main__outer-container {
+  height: 900px;
+}
+
+.main__inner-container {
+  width: 50%;
+}
+
+.main__recipe-result {
+  float: right;
+  width: 50%;
+}
+
+.main__recipe-result .main__result-left {
+  height: 700px;
+  width: 500px;
+  border: 2px solid coral;
+  margin-top: 5%;
+  margin-left: -25%;
+}
+
+.main__recipe-result .main__result-right {
+  height: 700px;
+  width: 500px;
+  border: 2px solid coral;
+  margin: -202% 5% 100% 25%;
+}
+
+.main__recipe-name {
+  padding: 3% 0 6% 2%;
+  font-family: Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+.footer__outer-container {
+  height: 360px;
+}
+
+.main__recipe-text {
+  height: 250px;
+  width: 300px;
+  border: 1px solid #000;
+  padding: 2% 3% 2% 6%;
+}
+
+.main__recipe-ingredients {
+  padding: 3% 5% 4% 2%;
+  font-size: 20px;
+}
+
+.ingredients-recipe li {
+  padding-left: 3%;
+  font-size: 12px;
+}
+
+.main__health-labels {
+  flex-direction: column;
+  padding: 3% 0 4% 2%;
+  display: flex;
+}
+
+.recipe-labels {
+  width: 100px;
+  height: 20px;
+  text-align: center;
+  background-color: #00bfff;
+  border-radius: 2em;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 1% 3%;
+  display: flex;
+}
+
+.footer__inner-container {
+  background-color: #0a2a4de6;
+  padding: 2em 0;
+}
+
+.footer__navigation {
+  width: 100%;
+  border: 3px solid orange;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 7%;
+  margin-top: 1em;
+  display: flex;
+}
+
+.footer-navigation__list {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.footer-list__heading {
+  color: #84ddf1cc;
+  padding-bottom: 2em;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.footer-navigation__list li {
+  color: #d4d8d980;
+  padding-bottom: 2em;
+  font-size: 13px;
+}
+
+.footer-list__socials {
+  height: 30px;
+  width: 30px;
+  background-color: #84ddf1cc;
+  border-radius: 50%;
+  margin-right: 1em;
+  padding: 3% 2% 1.5% 2.6%;
+  display: inline-block;
+}
+
+.footer-list__socials img {
+  height: 22px;
+  width: 22px;
+  border-radius: 50%;
+}
+
+/*# sourceMappingURL=aboutpage.4a639299.css.map */
